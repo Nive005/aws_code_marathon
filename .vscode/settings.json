@@ -1,0 +1,33 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "kubercabss-nivi.c78w2esc0r81.eu-west-2.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rds1",
+            "database": "sys",
+            "username": "admin",
+            "password": "nivedita"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "ridedetails.c78w2esc0r81.eu-west-2.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rds2",
+            "database": "sys",
+            "username": "admin",
+            "password": "nivedita"
+        }
+    ]
+}
